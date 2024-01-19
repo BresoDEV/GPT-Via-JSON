@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BresoGPT</title>
+    <script src="js/brain.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-messages" id="chat">
+
+        </div>
+        <div class="input-container">
+
+            <input onkeydown="verificarEnter(event)" id="pergunta" name="pergunta" type="text"
+                placeholder="Digite sua pergunta..." >
+            <button id="Enviar">Enviar</button>
+
+        </div>
+    </div>
+</body>
+
+
+<script>
+
+
+
+    //Inicio
+    var txtPergunta;
+    setInterval(() => {
+        txtPergunta = document.getElementById('pergunta').value;
+    }, 1);
+
+    
+
+
+
+    function verificarEnter(event) {
+        // Verifica se a tecla pressionada é a tecla "Enter"
+        if (event.key === "Enter") {
+            Perguntar(txtPergunta);
+        }
+    }
+
+    var txtPergunta = document.getElementById('pergunta').value;
+    document.getElementById('Enviar').addEventListener('click', () => {
+        Perguntar(txtPergunta);
+    });
+
+
+</script>
+
+</html>
