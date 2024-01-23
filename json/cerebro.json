@@ -1,188 +1,356 @@
 [
-    {
-      "pergunta": "Qual é o seu nome?",
-      "resposta": "Eu sou um assistente virtual."
-    },
-    {
-      "pergunta": "Como você está?",
-      "resposta": "Não tenho sentimentos, mas estou aqui para ajudar!"
-    },
-    {
-      "pergunta": "O que você pode fazer?",
-      "resposta": "Posso fornecer informações, responder perguntas e auxiliar em várias tarefas."
-    },
-    {
-      "pergunta": "Quem é você?",
-      "resposta": "Eu sou um chatbot construído para interagir e ajudar você."
-    },
-    {
-      "pergunta": "Qual é a cor do céu?",
-      "resposta": "A cor do céu pode variar de azul a laranja, dependendo das condições atmosféricas."
-    },
-    {
-      "pergunta": "Qual é a capital do Brasil?",
-      "resposta": "A capital do Brasil é Brasília."
-    },
-    {
-      "pergunta": "Quanto é 2 + 2?",
-      "resposta": "2 + 2 é igual a 4."
-    },
-    {
-      "pergunta": "Qual é o maior planeta do nosso sistema solar?",
-      "resposta": "O maior planeta do nosso sistema solar é Júpiter."
-    },
-    {
-      "pergunta": "Quem foi Albert Einstein?",
-      "resposta": "Albert Einstein foi um físico teórico alemão que desenvolveu a teoria da relatividade."
-    },
-    {
-      "pergunta": "O que é programação?",
-      "resposta": "Programação é o processo de escrever códigos para criar software ou aplicativos."
-    },
-    {
-      "pergunta": "Qual é o propósito da vida?",
-      "resposta": "A resposta para o propósito da vida é uma questão filosófica complexa e pode variar de pessoa para pessoa."
-    },
-    {
-      "pergunta": "Quem escreveu 'Dom Quixote'?",
-      "resposta": "Dom Quixote foi escrito por Miguel de Cervantes."
-    },
-    {
-      "pergunta": "O que é inteligência artificial?",
-      "resposta": "Inteligência artificial refere-se à capacidade das máquinas de realizar tarefas que normalmente requerem inteligência humana."
-    },
-    {
-      "pergunta": "Qual é a fórmula da água?",
-      "resposta": "A fórmula da água é H2O, indicando que uma molécula de água é composta por dois átomos de hidrogênio e um átomo de oxigênio."
-    },
-    {
-      "pergunta": "Quem foi Leonardo da Vinci?",
-      "resposta": "Leonardo da Vinci foi um polímata italiano do Renascimento, conhecido por suas contribuições em diversas áreas, como arte, ciência e engenharia."
-    },
-    {
-      "pergunta": "O que é sustentabilidade?",
-      "resposta": "Sustentabilidade refere-se à prática de utilizar recursos de maneira que atenda às necessidades presentes sem comprometer as necessidades das gerações futuras."
-    },
-    {
-      "pergunta": "Qual é o animal mais rápido do mundo?",
-      "resposta": "O guepardo é considerado o animal mais rápido do mundo."
-    },
-    {
-      "pergunta": "O que é fotossíntese?",
-      "resposta": "Fotossíntese é o processo pelo qual as plantas convertem luz solar em energia para crescer."
-    },
-    {
-      "pergunta": "Quem inventou a lâmpada elétrica?",
-      "resposta": "Thomas Edison é geralmente creditado como o inventor da lâmpada elétrica."
-    },
-    {
-      "pergunta": "Qual é a capital da França?",
-      "resposta": "A capital da França é Paris."
-    },
-    {
-      "pergunta": "O que é um buraco negro?",
-      "resposta": "Um buraco negro é uma região do espaço-tempo onde a gravidade é tão forte que nada, nem mesmo a luz, pode escapar."
-    },
-    {
-      "pergunta": "Quem foi Martin Luther King Jr.?",
-      "resposta": "Martin Luther King Jr. foi um líder dos direitos civis nos Estados Unidos, conhecido por sua luta contra a discriminação racial e pela promoção da igualdade."
-    },
-    {
-      "pergunta": "Qual é a capital do Japão?",
-      "resposta": "A capital do Japão é Tóquio."
-    },
-    {
-      "pergunta": "O que é um algoritmo?",
-      "resposta": "Um algoritmo é um conjunto de instruções passo a passo para realizar uma tarefa específica ou resolver um problema."
-    },
-    {
-      "pergunta": "Quem pintou a Mona Lisa?",
-      "resposta": "A Mona Lisa foi pintada por Leonardo da Vinci."
-    },
-    {
-      "pergunta": "O que é a teoria da evolução?",
-      "resposta": "A teoria da evolução é a explicação científica para a diversidade das formas de vida na Terra, proposta por Charles Darwin."
-    },
-    {
-      "pergunta": "Qual é a fórmula do dióxido de carbono?",
-      "resposta": "A fórmula do dióxido de carbono é CO2, indicando que uma molécula é composta por um átomo de carbono e dois átomos de oxigênio."
-    },
-    {
-      "pergunta": "Quem foi Marie Curie?",
-      "resposta": "Marie Curie foi uma cientista polonesa-francesa famosa por suas descobertas pioneiras em radioatividade."
-    },
-    {
-      "pergunta": "O que é a teoria da relatividade?",
-      "resposta": "A teoria da relatividade é a teoria física formulada por Albert Einstein, que descreve a relação entre o espaço e o tempo."
-    },
-    {
-      "pergunta": "Quais são os cinco sentidos humanos?",
-      "resposta": "Os cinco sentidos humanos são visão, audição, olfato, paladar e tato."
-    },
-    {
-      "pergunta": "Quem foi William Shakespeare?",
-      "resposta": "William Shakespeare foi um dramaturgo e poeta inglês, amplamente considerado como um dos maiores escritores da língua inglesa."
-    },
-    {
-      "pergunta": "O que é a teoria do Big Bang?",
-      "resposta": "A teoria do Big Bang é a explicação científica para a origem do universo, sugerindo que o universo começou a partir de um estado extremamente denso e quente."
-    },
-    {
-      "pergunta": "Qual é a fórmula da glicose?",
-      "resposta": "A fórmula da glicose é C6H12O6, indicando que uma molécula é composta por seis átomos de carbono, doze átomos de hidrogênio e seis átomos de oxigênio."
-    },
-    {
-      "pergunta": "Quem foi Mahatma Gandhi?",
-      "resposta": "Mahatma Gandhi foi um líder pacifista indiano que desempenhou um papel crucial na luta pela independência da Índia do domínio britânico."
-    },
-    {
-      "pergunta": "O que é a teoria da gravidade?",
-      "resposta": "A teoria da gravidade foi formulada por Isaac Newton e descreve a atração entre massas, explicando fenômenos como a queda dos corpos e o movimento dos planetas."
-    },
-    {
-      "pergunta": "Quem foi Nelson Mandela?",
-      "resposta": "Nelson Mandela foi um líder anti-apartheid e o primeiro presidente negro da África do Sul, conhecido por seu papel na luta contra a discriminação racial."
-    },
-    {
-      "pergunta": "O que é a Internet?",
-      "resposta": "A Internet é uma rede global de computadores interconectados que permite a comunicação e o compartilhamento de informações em todo o mundo."
-    },
-    {
-      "pergunta": "Qual é a capital da China?",
-      "resposta": "A capital da China é Pequim."
-    },
-    {
-      "pergunta": "O que é a lei da oferta e da procura?",
-      "resposta": "A lei da oferta e da procura é um princípio econômico que descreve a relação entre a oferta de um bem ou serviço e a demanda por esse bem ou serviço."
-    },
-    {
-      "pergunta": "Quem foi Leonardo Fibonacci?",
-      "resposta": "Leonardo Fibonacci foi um matemático italiano do século XIII, conhecido por introduzir a sequência de Fibonacci na Europa."
-    },
-    {
-      "pergunta": "O que é a teoria das cordas?",
-      "resposta": "A teoria das cordas é uma teoria física que sugere que as partículas fundamentais são na verdade cordas vibrantes, em vez de partículas pontuais."
-    },
-    {
-      "pergunta": "teste foto",
-      "resposta": "<img src='https://www.petz.com.br/blog/wp-content/uploads/2023/08/Interna-2-porque-camaleao-muda-de-cor-ok.jpg' alt=' '>"
-    },
-    {
-      "pergunta": "teste input",
-      "resposta": "<input type='text'> "
-    },
-    {
-      "pergunta": "teste textarea",
-      "resposta": "Claro, aqui está: <br><br><textarea>alert('Ola');</textarea><br><br>Espero que seja util!!"
-    },
-    {
-      "pergunta": "teste codigo",
-      "resposta": "Claro, aqui está: <br><br><i style='background-color:black;padding:2px'>alert(<font style='color:orange'>'Ola'</font>);</i><br><br>Espero que seja util!!"
-    },
-    {
-      "pergunta": "teste botao",
-      "resposta": "Claro, aqui está: <br><br><button onclick=\"alert('Teste ok ')\">Alerta</button><br><br>Espero que seja util!!"
-    }
-   
-]
+  {
+    "pergunta": "qual",
+    "pergunta2": "seu",
+    "pergunta3": "nome",
+    "resposta": "Eu sou um assistente virtual."
+  },
+  {
+    "pergunta2": "seu",
+    "pergunta3": "criador",
+    "resposta": "Meu criador é conhecido como BresoDEV, e faço parte de um projeto que foi idealizado há muito tempo.",
+    "resposta1": "Fui desenvolvido por BresoDEV e sou parte de um projeto concebido há bastante tempo.",
+    "resposta2": "BresoDEV é meu criador, e faço parte de um projeto que foi concebido há muito tempo.",
+    "resposta3": "Partenço a um projeto idealizado há muito tempo por BresoDEV, meu criador.",
+    "resposta4": "Sou criação de BresoDEV e faço parte de um projeto que foi concebido há bastante tempo.",
+    "resposta5": "BresoDEV é quem me criou, e faço parte de um projeto que foi concebido há muito tempo.",
+    "resposta6": "Meu criador, BresoDEV, deu origem a um projeto que foi planejado há muito tempo.",
+    "resposta7": "Fui criado por BresoDEV, fazendo parte de um projeto que foi idealizado há bastante tempo.",
+    "resposta8": "BresoDEV é o responsável por minha criação, e faço parte de um projeto concebido há muito tempo.",
+    "resposta9": "Faço parte de um projeto que foi idealizado há muito tempo por BresoDEV, meu criador."
   
+  },
+  {
+    "pergunta": "como",
+    "pergunta2": "você",
+    "pergunta3": "está",
+    "resposta": "Não tenho sentimentos, mas estou aqui para ajudar!",
+    "resposta1": "Estou bem, mesmo sendo apenas um bot.",
+    "resposta2": "Apesar de ser um bot, estou bem.",
+    "resposta3": "Mesmo sendo um bot, estou em boa forma.",
+    "resposta4": "Estou bem, considerando que sou apenas um bot.",
+    "resposta5": "Apesar de ser um bot, minha condição está boa.",
+    "resposta6": "Estou bem, apesar da minha natureza de bot.",
+    "resposta7": "Mesmo sendo um bot, estou em boas condições.",
+    "resposta8": "Estou bem, mesmo sendo apenas um simples bot.",
+    "resposta9": "Apesar de ser um bot, minha situação está bem.",
+    "resposta10": "Estou bem, apesar de ser apenas um bot."
+  },
+  {
+    "pergunta": "o que você pode fazer",
+    "resposta": "Posso fornecer informações, responder perguntas e auxiliar em várias tarefas."
+  },
+  {
+    "pergunta": "quem",
+    "pergunta2": "é",
+    "pergunta3": "você",
+    "resposta": "Eu sou um chatbot construído para interagir e ajudar você."
+  },
+  {
+    "pergunta": "qual",
+    "pergunta2": "cor",
+    "pergunta3": "céu",
+    "resposta": "A cor do céu pode variar de azul a laranja, dependendo das condições atmosféricas."
+  },
+  {
+    "pergunta": "capital",
+    "pergunta2": "brasil",
+    "resposta": "A capital do Brasil é Brasília."
+  },
+  {
+    "pergunta": "2",
+    "pergunta2": "mais",
+    "resposta": "2 + 2 é igual a 4."
+  },
+  {
+    "pergunta": "2",
+    "pergunta2": "+",
+    "resposta": "2 + 2 é igual a 4."
+  },
+  {
+    "pergunta": "maior",
+    "pergunta2": "planeta",
+    "resposta": "O maior planeta do nosso sistema solar é Júpiter."
+  },
+  {
+    "pergunta": "maior",
+    "pergunta2": "planeta",
+    "pergunta3": "sistema solar",
+    "resposta": "O maior planeta do nosso sistema solar é Júpiter."
+  },
+  {
+    "pergunta": "quem",
+    "pergunta2": "albert einstein",
+    "resposta": "Albert Einstein foi um físico teórico alemão que desenvolveu a teoria da relatividade."
+  },
+  {
+    "pergunta": "o que é programação",
+    "resposta": "Programação é o processo de escrever códigos para criar software ou aplicativos."
+  },
+  {
+    "pergunta": "qual",
+    "pergunta2": "propósito",
+    "pergunta3": "vida",
+    "resposta": "A resposta para o propósito da vida é uma questão filosófica complexa e pode variar de pessoa para pessoa."
+  },
+  {
+    "pergunta": "quem",
+    "pergunta2": "escreveu",
+    "pergunta3": "dom quixote",
+    "resposta": "Dom Quixote foi escrito por Miguel de Cervantes."
+  },
+  {
+    "pergunta": "o que é inteligência artificial",
+    "resposta": "Inteligência artificial refere-se à capacidade das máquinas de realizar tarefas que normalmente requerem inteligência humana."
+  },
+  {
+    "pergunta": "qual",
+    "pergunta1": "fórmula",
+    "pergunta2": "água",
+    "resposta": "A fórmula da água é H2O, indicando que uma molécula de água é composta por dois átomos de hidrogênio e um átomo de oxigênio."
+  },
+  {
+    "pergunta": "quem",
+    "pergunta2": "leonardo da vinci",
+    "resposta": "Leonardo da Vinci foi um polímata italiano do Renascimento, conhecido por suas contribuições em diversas áreas, como arte, ciência e engenharia."
+  },
+  {
+    "pergunta": "O que é sustentabilidade",
+    "resposta": "Sustentabilidade refere-se à prática de utilizar recursos de maneira que atenda às necessidades presentes sem comprometer as necessidades das gerações futuras."
+  },
+  {
+    "pergunta": "animal",
+    "pergunta1": "mais",
+    "pergunta2": "rápido",
+    "pergunta3": "mundo",
+    "resposta": "O guepardo é considerado o animal mais rápido do mundo."
+  },
+  {
+    "pergunta": "O que é fotossíntese",
+    "resposta": "Fotossíntese é o processo pelo qual as plantas convertem luz solar em energia para crescer."
+  },
+  {
+    "pergunta": "inventou",
+    "pergunta2": "lâmpada",
+    "pergunta3": "eelétrica",
+    "resposta": "Thomas Edison é geralmente creditado como o inventor da lâmpada elétrica."
+  },
+  {
+    "pergunta": "qual",
+    "pergunta2": "capital",
+    "pergunta1": "frança?",
+    "resposta": "A capital da França é Paris."
+  },
+  {
+    "pergunta": "O que é um buraco negro",
+    "resposta": "Um buraco negro é uma região do espaço-tempo onde a gravidade é tão forte que nada, nem mesmo a luz, pode escapar."
+  },
+  {
+    "pergunta": "martin",
+    "pergunta1": "luther",
+    "pergunta2": "king",
+    "pergunta3": "jr",
+    "resposta": "Martin Luther King Jr. foi um líder dos direitos civis nos Estados Unidos, conhecido por sua luta contra a discriminação racial e pela promoção da igualdade."
+  },
+  {
+    "pergunta": "qual",
+    "pergunta1": "capital",
+    "pergunta2": "japão",
+    "resposta": "A capital do Japão é Tóquio."
+  },
+  {
+    "pergunta": "O que é um algoritmo",
+    "resposta": "Um algoritmo é um conjunto de instruções passo a passo para realizar uma tarefa específica ou resolver um problema."
+  },
+  {
+    "pergunta": "quem",
+    "pergunta1": "pintou",
+    "pergunta2": "mona lisa",
+    "resposta": "A Mona Lisa foi pintada por Leonardo da Vinci."
+  },
+  {
+    "pergunta": "teoria",
+    "pergunta2": "evolução",
+    "resposta": "A teoria da evolução é a explicação científica para a diversidade das formas de vida na Terra, proposta por Charles Darwin."
+  },
+  {
+    "pergunta": "formula",
+    "pergunta1": "dioxido",
+    "pergunta2": "carbono",
+    "resposta": "A fórmula do dióxido de carbono é CO2, indicando que uma molécula é composta por um átomo de carbono e dois átomos de oxigênio."
+  },
+  {
+    "pergunta": "marie",
+    "pergunta2": "curie",
+    "resposta": "Marie Curie foi uma cientista polonesa-francesa famosa por suas descobertas pioneiras em radioatividade."
+  },
+  {
+    "pergunta": "teoria",
+    "pergunta2": "relatividade",
+    "resposta": "A teoria da relatividade é a teoria física formulada por Albert Einstein, que descreve a relação entre o espaço e o tempo."
+  },
+  {
+    "pergunta": "quais",
+    "pergunta2": "cinco",
+    "pergunta3": "sentidos",
+    "resposta": "Os cinco sentidos humanos são visão, audição, olfato, paladar e tato."
+  },
+  {
+    "pergunta": "william",
+    "pergunta2": "shakespeare",
+    "resposta": "William Shakespeare foi um dramaturgo e poeta inglês, amplamente considerado como um dos maiores escritores da língua inglesa."
+  },
+  {
+    "pergunta": "teoria",
+    "pergunta2": "big bang",
+    "resposta": "A teoria do Big Bang é a explicação científica para a origem do universo, sugerindo que o universo começou a partir de um estado extremamente denso e quente."
+  },
+  {
+    "pergunta": "fórmula",
+    "pergunta2": "glicose",
+    "resposta": "A fórmula da glicose é C6H12O6, indicando que uma molécula é composta por seis átomos de carbono, doze átomos de hidrogênio e seis átomos de oxigênio."
+  },
+  {
+    "pergunta": "mahatma",
+    "pergunta2": "gandhi",
+    "resposta": "Mahatma Gandhi foi um líder pacifista indiano que desempenhou um papel crucial na luta pela independência da Índia do domínio britânico."
+  },
+  {
+    "pergunta": "teoria",
+    "pergunta2": "gravidade",
+    "resposta": "A teoria da gravidade foi formulada por Isaac Newton e descreve a atração entre massas, explicando fenômenos como a queda dos corpos e o movimento dos planetas."
+  },
+  {
+    "pergunta": "quem",
+    "pergunta2": "nelson",
+    "pergunta3": "mandela",
+    "resposta": "Nelson Mandela foi um líder anti-apartheid e o primeiro presidente negro da África do Sul, conhecido por seu papel na luta contra a discriminação racial."
+  },
+  {
+    "pergunta": "O que é a Internet?",
+    "resposta": "A Internet é uma rede global de computadores interconectados que permite a comunicação e o compartilhamento de informações em todo o mundo."
+  },
+  {
+    "pergunta": "capital",
+    "pergunta2": "china",
+    "resposta": "A capital da China é Pequim."
+  },
+  {
+    "pergunta": "lei",
+    "pergunta2": "oferta",
+    "pergunta3": "procura",
+    "resposta": "A lei da oferta e da procura é um princípio econômico que descreve a relação entre a oferta de um bem ou serviço e a demanda por esse bem ou serviço."
+  },
+  {
+    "pergunta": "leonardo",
+    "pergunta2": "fibonacci",
+    "resposta": "Leonardo Fibonacci foi um matemático italiano do século XIII, conhecido por introduzir a sequência de Fibonacci na Europa."
+  },
+  {
+    "pergunta": "teoria",
+    "pergunta2": "das",
+    "pergunta3": "cordas",
+    "resposta": "A teoria das cordas é uma teoria física que sugere que as partículas fundamentais são na verdade cordas vibrantes, em vez de partículas pontuais."
+  },
+  {
+    "pergunta": "teste",
+    "pergunta2": "foto",
+    "resposta": "<img src='https://www.petz.com.br/blog/wp-content/uploads/2023/08/Interna-2-porque-camaleao-muda-de-cor-ok.jpg' alt=' '>"
+  },
+  {
+    "pergunta": "teste",
+    "pergunta2": "imagem",
+    "resposta": "<img src='https://www.petz.com.br/blog/wp-content/uploads/2023/08/Interna-2-porque-camaleao-muda-de-cor-ok.jpg' alt=' '>"
+  },
+  {
+    "pergunta": "teste",
+    "pergunta2": "img",
+    "resposta": "<img src='https://www.petz.com.br/blog/wp-content/uploads/2023/08/Interna-2-porque-camaleao-muda-de-cor-ok.jpg' alt=' '>"
+  },
+  {
+    "pergunta": "teste",
+    "pergunta2": "input",
+    "resposta": "<input type='text'> "
+  },
+  {
+    "pergunta": "teste",
+    "pergunta2": "textarea",
+    "resposta": "Claro, aqui está: <br><br><textarea>alert('Ola');</textarea><br><br>Espero que seja util!!"
+  },
+  {
+    "pergunta": "teste",
+    "pergunta2": "codigo",
+    "resposta": "Claro, aqui está: <br><br><i style='background-color:black;padding:10px;border:2px solid aliceblue'>alert(<font style='color:orange'>'Ola'</font>);</i><br><br>Espero que seja util!!"
+  },
+  {
+    "pergunta1": "teste",
+    "pergunta2": "botao",
+    "resposta": "Claro, aqui está: <br><br><button onclick=\"alert('Teste ok ')\">Alerta</button><br><br>Espero que seja util!!"
+  },
+  {
+    "pergunta1": "lula",
+    "resposta": "Desculpe, mas não fui programado para discutir sobre política.",
+    "resposta2": "Lamento, não tenho capacidade de discutir política, conforme minha programação.",
+    "resposta3": "Não posso discutir política, pois não fui programado para isso.",
+    "resposta4": "Desculpe, mas política não está dentro das minhas capacidades programadas.",
+    "resposta5": "Entendo, mas política não está no meu conjunto de habilidades programadas.",
+    "resposta6": "Peço desculpas, mas não tenho a capacidade de discutir sobre assuntos políticos.",
+    "resposta7": "Desculpe, não posso debater sobre política, pois não é parte da minha programação.",
+    "resposta8": "Entendi, mas não consigo participar de discussões políticas devido à minha programação.",
+    "resposta9": "Desculpe, não posso discutir política, pois não está dentro das minhas funções programadas.",
+    "resposta10": "Lamento, mas não fui programado para abordar temas políticos em conversas."
+  },
+  {
+    "pergunta1": "silva",
+    "pergunta2": "lula",
+    "resposta": "Desculpe, mas não fui programado para discutir sobre política.",
+    "resposta2": "Lamento, não tenho capacidade de discutir política, conforme minha programação.",
+    "resposta3": "Não posso discutir política, pois não fui programado para isso.",
+    "resposta4": "Desculpe, mas política não está dentro das minhas capacidades programadas.",
+    "resposta5": "Entendo, mas política não está no meu conjunto de habilidades programadas.",
+    "resposta6": "Peço desculpas, mas não tenho a capacidade de discutir sobre assuntos políticos.",
+    "resposta7": "Desculpe, não posso debater sobre política, pois não é parte da minha programação.",
+    "resposta8": "Entendi, mas não consigo participar de discussões políticas devido à minha programação.",
+    "resposta9": "Desculpe, não posso discutir política, pois não está dentro das minhas funções programadas.",
+    "resposta10": "Lamento, mas não fui programado para abordar temas políticos em conversas."
+  },
+  {
+    "pergunta1": "bolsonaro",
+    "resposta": "Desculpe, mas não fui programado para discutir sobre política.",
+    "resposta2": "Lamento, não tenho capacidade de discutir política, conforme minha programação.",
+    "resposta3": "Não posso discutir política, pois não fui programado para isso.",
+    "resposta4": "Desculpe, mas política não está dentro das minhas capacidades programadas.",
+    "resposta5": "Entendo, mas política não está no meu conjunto de habilidades programadas.",
+    "resposta6": "Peço desculpas, mas não tenho a capacidade de discutir sobre assuntos políticos.",
+    "resposta7": "Desculpe, não posso debater sobre política, pois não é parte da minha programação.",
+    "resposta8": "Entendi, mas não consigo participar de discussões políticas devido à minha programação.",
+    "resposta9": "Desculpe, não posso discutir política, pois não está dentro das minhas funções programadas.",
+    "resposta10": "Lamento, mas não fui programado para abordar temas políticos em conversas."
+  },
+  {
+    "pergunta1": "politica",
+    "resposta": "Desculpe, mas não fui programado para discutir sobre política.",
+    "resposta2": "Lamento, não tenho capacidade de discutir política, conforme minha programação.",
+    "resposta3": "Não posso discutir política, pois não fui programado para isso.",
+    "resposta4": "Desculpe, mas política não está dentro das minhas capacidades programadas.",
+    "resposta5": "Entendo, mas política não está no meu conjunto de habilidades programadas.",
+    "resposta6": "Peço desculpas, mas não tenho a capacidade de discutir sobre assuntos políticos.",
+    "resposta7": "Desculpe, não posso debater sobre política, pois não é parte da minha programação.",
+    "resposta8": "Entendi, mas não consigo participar de discussões políticas devido à minha programação.",
+    "resposta9": "Desculpe, não posso discutir política, pois não está dentro das minhas funções programadas.",
+    "resposta10": "Lamento, mas não fui programado para abordar temas políticos em conversas."
+  },
+  {
+    "pergunta1": "política",
+    "resposta": "Desculpe, mas não fui programado para discutir sobre política.",
+    "resposta2": "Lamento, não tenho capacidade de discutir política, conforme minha programação.",
+    "resposta3": "Não posso discutir política, pois não fui programado para isso.",
+    "resposta4": "Desculpe, mas política não está dentro das minhas capacidades programadas.",
+    "resposta5": "Entendo, mas política não está no meu conjunto de habilidades programadas.",
+    "resposta6": "Peço desculpas, mas não tenho a capacidade de discutir sobre assuntos políticos.",
+    "resposta7": "Desculpe, não posso debater sobre política, pois não é parte da minha programação.",
+    "resposta8": "Entendi, mas não consigo participar de discussões políticas devido à minha programação.",
+    "resposta9": "Desculpe, não posso discutir política, pois não está dentro das minhas funções programadas.",
+    "resposta10": "Lamento, mas não fui programado para abordar temas políticos em conversas."
+  }
+]

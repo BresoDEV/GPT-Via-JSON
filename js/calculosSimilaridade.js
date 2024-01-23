@@ -34,3 +34,23 @@ function encontrarPerguntaSemelhante(perguntaUsuario) {
     console.log('Vel: ' + delay);
     return respostaCorrespondente;
 }
+
+
+function verificarStringEObterResposta(str)
+{
+    //perguntasRespostas
+    for(const array of perguntasRespostas)
+    {
+        const pc = Object.keys(array).filter(key => key.includes('pergunta'));
+
+        if(pc.every(palavra=>str.includes(array[palavra])))
+        {
+            const r = Object.keys(array).filter(key=>key.includes('resposta'));
+            const ra = array[r[Math.floor(Math.random()*r.length )]];
+            console.log(ra);
+            return ra;
+        }
+    }
+    return NaoEntendeu();
+
+}

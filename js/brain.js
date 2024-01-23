@@ -15,6 +15,8 @@ var loopCarregamento = setInterval(() => {
     carregouRespostasBemVindo.valor === true &&
     carregouRespostasTchau.valor === true &&
     carregouRespostasNaoEntendeu.valor === true &&
+    carregouRespostasBlacklist.valor === true &&
+    carregouRespostasBlacklist.valor === true &&
     carregouRespostasObrigado.valor === true) {
 
     console.log('Todos JSONS carregados com sucesso');
@@ -49,13 +51,31 @@ function Perguntar(txtPergunta) {
                   MsgBot(Obrigado());
                   document.getElementById('pergunta').value = '';
               }
+              else if (contemPalavraArray(txtPergunta, arrayPalavroes)) 
+              {
+                  MsgUsuario(txtPergunta);
+                  MsgBot(Palavrao());
+                  document.getElementById('pergunta').value = '';
+              }
+              else if (contemPalavraArray(txtPergunta, arrayDesculpas)) 
+              {
+                  MsgUsuario(txtPergunta);
+                  MsgBot(Desculpas());
+                  document.getElementById('pergunta').value = '';
+              }
               else 
               {
                   //Resposta normal via cerebro
                   var perguntas = txtPergunta;
                   MsgUsuario(perguntas);
-                  var resposta = encontrarPerguntaSemelhante(perguntas);
+
+                  //sistema via similaridade
+                  //var resposta = encontrarPerguntaSemelhante(perguntas);
+                  
+                  //sistema via palavras iguais
+                  var resposta = verificarStringEObterResposta(perguntas.toLowerCase());
                   MsgBot(resposta);
+
                   document.getElementById('pergunta').value = '';
               }
           }

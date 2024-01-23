@@ -57,6 +57,17 @@ function carregarJsons() {
         .catch(error => {
             console.error('Erro ao carregar o arquivo JSON ' + arquivo, error);
         });
+   //--------------------------------
+    arquivo = 'json/blacklistRespostas.json';
+    fetch(arquivo)
+        .then(response => response.json())
+        .then(data => {
+            RespostasBlacklist = data;
+            carregouRespostasBlacklist.valor = true;
+        })
+        .catch(error => {
+            console.error('Erro ao carregar o arquivo JSON ' + arquivo, error);
+        });
     //------------------
 
 

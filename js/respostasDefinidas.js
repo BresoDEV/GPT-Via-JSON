@@ -19,3 +19,14 @@ function NaoEntendeu() {
     //console.log(RespostasBemVindo[i]);
     return RespostasNaoEntendeu[i];
 }
+function Palavrao() {
+    let i = Math.floor(Math.random() * RespostasBlacklist.length);
+    //console.log(RespostasBemVindo[i]);
+    return RespostasBlacklist[i];
+}
+
+function Desculpas() {
+    let i = Math.floor(Math.random() * arrayRespostasDesculpas.length);
+    //console.log(RespostasBemVindo[i]);
+    return arrayRespostasDesculpas[i];
+}
