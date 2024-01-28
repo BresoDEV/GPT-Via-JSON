@@ -30,3 +30,31 @@ function Desculpas() {
     //console.log(RespostasBemVindo[i]);
     return arrayRespostasDesculpas[i];
 }
+
+function Ola() {
+    let i = Math.floor(Math.random() * RespostasOla.length);
+    //console.log(RespostasBemVindo[i]);
+    return RespostasOla[i];
+}
+
+function DataHoje() {
+    const o = {
+        timeZone: 'America/Sao_Paulo',
+        day: 'numeric',
+        month: 'numeric',
+        year: 'numeric'
+    };
+    const f = new Intl.DateTimeFormat('pt-BR', o);
+    return f.format(new Date().hour);
+}
+
+function HoraHoje() {
+    const o = {
+        timeZone: 'America/Sao_Paulo',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric'
+    };
+    const f = new Intl.DateTimeFormat('pt-BR', o);
+    return f.format(new Date().hour);
+}

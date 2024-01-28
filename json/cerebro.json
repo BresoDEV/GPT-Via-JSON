@@ -2873,6 +2873,48 @@
 
   }  ,
   {
+    "pergunta1": "resumo",
+    "resposta1": "Infelizmente, minha capacidade atual não me permite realizar resumos extensos de textos.",
+    "resposta2": "Lamentavelmente, não possuo a habilidade necessária para efetuar resumos detalhados de textos.",
+    "resposta3": "É uma limitação minha não poder fazer resumos abrangentes de textos.",
+    "resposta4": "Infelizmente, não estou apto a realizar resumos de textos devido às minhas limitações atuais.",
+    "resposta5": "Não tenho a capacidade de fazer resumos completos de textos, o que é uma limitação inerente ao meu funcionamento.",
+    "resposta6": "Lamentavelmente, não sou capaz de oferecer resumos extensivos de textos devido às minhas limitações técnicas.",
+    "resposta7": "Minha capacidade atual não me permite fazer resumos detalhados de textos, infelizmente.",
+    "resposta8": "Não posso efetuar resumos abrangentes de textos devido às minhas limitações atuais, lamentavelmente.",
+    "resposta9": "Infelizmente, a minha habilidade atual não inclui a capacidade de realizar resumos extensos de textos.",
+    "resposta10": "Não possuo a capacidade de oferecer resumos detalhados de textos, o que é uma limitação que reconheço."
+    
+  } ,
+  {
+    "pergunta1": "resumir",
+    "resposta1": "Infelizmente, minha capacidade atual não me permite realizar resumos extensos de textos.",
+"resposta2": "Lamentavelmente, não possuo a habilidade necessária para efetuar resumos detalhados de textos.",
+"resposta3": "É uma limitação minha não poder fazer resumos abrangentes de textos.",
+"resposta4": "Infelizmente, não estou apto a realizar resumos de textos devido às minhas limitações atuais.",
+"resposta5": "Não tenho a capacidade de fazer resumos completos de textos, o que é uma limitação inerente ao meu funcionamento.",
+"resposta6": "Lamentavelmente, não sou capaz de oferecer resumos extensivos de textos devido às minhas limitações técnicas.",
+"resposta7": "Minha capacidade atual não me permite fazer resumos detalhados de textos, infelizmente.",
+"resposta8": "Não posso efetuar resumos abrangentes de textos devido às minhas limitações atuais, lamentavelmente.",
+"resposta9": "Infelizmente, a minha habilidade atual não inclui a capacidade de realizar resumos extensos de textos.",
+"resposta10": "Não possuo a capacidade de oferecer resumos detalhados de textos, o que é uma limitação que reconheço."
+
+  } ,
+  {
+    "pergunta1": "resuma",
+    "resposta1": "Infelizmente, minha capacidade atual não me permite realizar resumos extensos de textos.",
+    "resposta2": "Lamentavelmente, não possuo a habilidade necessária para efetuar resumos detalhados de textos.",
+    "resposta3": "É uma limitação minha não poder fazer resumos abrangentes de textos.",
+    "resposta4": "Infelizmente, não estou apto a realizar resumos de textos devido às minhas limitações atuais.",
+    "resposta5": "Não tenho a capacidade de fazer resumos completos de textos, o que é uma limitação inerente ao meu funcionamento.",
+    "resposta6": "Lamentavelmente, não sou capaz de oferecer resumos extensivos de textos devido às minhas limitações técnicas.",
+    "resposta7": "Minha capacidade atual não me permite fazer resumos detalhados de textos, infelizmente.",
+    "resposta8": "Não posso efetuar resumos abrangentes de textos devido às minhas limitações atuais, lamentavelmente.",
+    "resposta9": "Infelizmente, a minha habilidade atual não inclui a capacidade de realizar resumos extensos de textos.",
+    "resposta10": "Não possuo a capacidade de oferecer resumos detalhados de textos, o que é uma limitação que reconheço."
+    
+  } ,
+  {
     "pergunta1": "beneficios",
     "pergunta2": "intelig",
     "pergunta3": "artificial",
@@ -2887,79 +2929,5 @@
   "resposta9": "A inteligência artificial oferece benefícios significativos, incluindo automação de tarefas repetitivas, tomada de decisões mais rápida e precisa, diagnósticos médicos avançados, personalização de experiências online, otimização de processos industriais e avanços em pesquisa científica.",
   "resposta10": "Os benefícios da inteligência artificial são diversos, incluindo automação eficiente, decisões mais rápidas e precisas, diagnósticos médicos avançados, personalização de experiências online, otimização de processos industriais e avanços em pesquisa científica."
 
-  }  ,
-  {
-    "pergunta1": "quem",
-    "pergunta2": "criou",
-     "resposta1": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta2": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta3": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta4": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta5": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta6": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta7": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta8": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta9": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta10": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?"
-
-  },
-  {
-    "pergunta1": "quem",
-    "pergunta2": "inventou",
-     "resposta1": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta2": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta3": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta4": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta5": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta6": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta7": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta8": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta9": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta10": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?"
-
-  },
-  {
-    "pergunta1": "quem",
-    "pergunta2": "desenvolveu",
-     "resposta1": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta2": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta3": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta4": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta5": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta6": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta7": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta8": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta9": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta10": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?"
-
-  },
-  {
-    "pergunta1": "quem",
-    "pergunta2": "projetou",
-     "resposta1": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta2": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta3": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta4": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta5": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta6": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta7": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?",
-  "resposta8": "Não consigo identificar a criação mencionada. Pode fornecer mais informações ou especificar o que está se referindo?",
-  "resposta9": "Desculpe, não entendi a criação mencionada. Pode esclarecer ou fornecer mais informações sobre o que está perguntando?",
-  "resposta10": "Não tenho informações claras sobre quem criou isso. Pode fornecer mais detalhes ou perguntar sobre um tópico específico?"
-
-  } ,
-  {
-    "pergunta1": "quem",
-    "resposta1": "Desculpe, não estou familiarizado com essa pessoa.",
-  "resposta2": "Não tenho conhecimento sobre essa pessoa em particular.",
-  "resposta3": "Não estou ciente dessa pessoa em específico.",
-  "resposta4": "Infelizmente, não tenho informações sobre essa pessoa.",
-  "resposta5": "Não tenho conhecimento sobre a pessoa que mencionou.",
-  "resposta6": "Desculpe, essa pessoa não está em meu banco de dados.",
-  "resposta7": "Não tenho informações sobre essa pessoa em particular.",
-  "resposta8": "Infelizmente, não estou familiarizado com a pessoa mencionada.",
-  "resposta9": "Não tenho conhecimento sobre essa pessoa em específico.",
-  "resposta10": "Desculpe, não estou ciente dessa pessoa."
-    
   } 
 ]

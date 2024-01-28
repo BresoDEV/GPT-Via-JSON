@@ -6,8 +6,6 @@ function DevMode(pergunta) {
         document.getElementById('pergunta').value = '';
         MsgBot("Voce ativou o recurso de desenvolvedor<br><br>" +
             "Comandos:<br><br>" +
-            "<b>/cerebro</b> = Define o quanto o bot é preciso nas respostas, de 0.1 a 1.0<br><br>" +
-            "<i><b>Ex:</b> /cerebro <font style='color:lime'>0.4</font></i><br>Valor padrao:0.4<br><hr><br>" +
             "<b>/vel</b> = Define o quanto o bot demora para escrever cada letra (em milisegundos), de 1 a qualquer valor<br><br>" +
             "<i><b>Ex:</b> /vel <font style='color:lime'>30</font></i><br>Valor padrao:10<br><hr><br>" +
             "<b>/reset</b> = Redefine os valores para o padrão.<br><br>" +

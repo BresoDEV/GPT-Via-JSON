@@ -19,7 +19,7 @@ function contemPalavra(pergunta, palavra) {
 function contemPalavraArray(pergunta, arrays) {
     let achou = false;
     arrays.forEach(element => {
-        console.log(element+' : '+contemPalavra(pergunta,element));
+         
         if (contemPalavra(pergunta,element))
         {
             achou = true;

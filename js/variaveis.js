@@ -22,9 +22,21 @@ var carregouRespostasNaoEntendeu = { valor: false };
 var RespostasBlacklist = [];
 var carregouRespostasBlacklist = { valor: false };
 
+var RespostasOla = [];
+var carregouRespostasOla = { valor: false };
 
+
+var perguntasRespostasCerebro2 = [];
+var carregouperguntasRespostasCerebro2 = { valor: false };
+
+var arrayData = [
+    'dia','hoje'
+];
+var arrayOla = [
+    'oi','ola','olá','bom dia','boa noite','boa tarde','oie','alô','alo','eai','e ai','opa'
+];
 var arrayObrigados = [
-    'valeu','obrigad','agrade'
+    'valeu','obrigad','agrade','perfeito','muito bom'
 ];
 var arrayTchaus = [
     'tchau','ate mais','até mais','adeus','ate logo','até logo',
@@ -33,16 +45,16 @@ var arrayDesculpas = [
     'desculp','perdão','perdao'
 ];
 var arrayRespostasDesculpas = [
-    "Não precisa se desculpar.",
-    "Sem necessidade de desculpas.",
-    "Tudo bem, sem desculpas necessárias.",
-    "Está tudo bem, não precisa pedir desculpas.",
-    "Entendido, sem desculpas.",
-    "Está tudo certo, não precisa se desculpar.",
-    "Não há problema, sem desculpas.",
-    "Entendi, sem necessidade de desculpas.",
-    "Sem preocupações, não precisa se desculpar.",
-    "Está ok, não é necessário pedir desculpas."
+    "Não precisa se desculpar &#128516",
+    "Sem necessidade de desculpas &#128516",
+    "Tudo bem, sem desculpas necessárias &#128516",
+    "Está tudo bem, não precisa pedir desculpas &#128516",
+    "Entendido, sem desculpas &#128516",
+    "Está tudo certo, não precisa se desculpar &#128516",
+    "Não há problema, sem desculpas &#128516",
+    "Entendi, sem necessidade de desculpas &#128516",
+    "Sem preocupações, não precisa se desculpar &#128516",
+    "Está ok, não é necessário pedir desculpas &#128516"
 ];
 
 var arrayPalavroes = [

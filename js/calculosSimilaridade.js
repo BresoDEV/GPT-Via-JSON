@@ -30,27 +30,50 @@ function encontrarPerguntaSemelhante(perguntaUsuario) {
     if (melhorSimilaridade < limiteSimilaridade) {
         respostaCorrespondente = NaoEntendeu();
     }
-    console.log('Cerebro: ' + limiteSimilaridade);
-    console.log('Vel: ' + delay);
+    
     return respostaCorrespondente;
 }
 
 
-function verificarStringEObterResposta(str)
-{
+function verificarStringEObterResposta(str) {
+    var ra = '';
+    console.log('ra: -'+ra+'-');
     //perguntasRespostas
-    for(const array of perguntasRespostas)
+    if(ra ==='')
     {
-        const pc = Object.keys(array).filter(key => key.includes('pergunta'));
-
-        if(pc.every(palavra=>str.includes(array[palavra])))
-        {
-            const r = Object.keys(array).filter(key=>key.includes('resposta'));
-            const ra = array[r[Math.floor(Math.random()*r.length )]];
-            console.log(ra);
-            return ra;
+        for (const array of perguntasRespostas) {
+            const pc = Object.keys(array).filter(key => key.includes('pergunta'));
+    
+            if (pc.every(palavra => str.includes(array[palavra]))) 
+            {
+                const r = Object.keys(array).filter(key => key.includes('resposta'));
+                ra = array[r[Math.floor(Math.random() * r.length)]];
+                
+                return ra;
+            }
         }
     }
+    
+    debugger;
+    console.log('pesquisa no cerebro2.json');
+    console.log('ra: -'+ra+'-');
+    if (ra === '') {
+        //ainda nao achou uma resposta
+        //pesquisa no cerebro2.json
+        for (const array of perguntasRespostasCerebro2) {
+            const pc = Object.keys(array).filter(key => key.includes('pergunta'));
+
+            if (pc.every(palavra => str.includes(array[palavra]))) {
+                const r = Object.keys(array).filter(key => key.includes('resposta'));
+                ra = array[r[Math.floor(Math.random() * r.length)]];
+                console.log(ra);
+                return ra;
+            }
+        }
+    }
+
+    console.log('ra: -'+ra+'-');
+    //não achou nada
     return NaoEntendeu();
 
 }

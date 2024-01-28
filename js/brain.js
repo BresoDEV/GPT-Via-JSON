@@ -17,6 +17,8 @@ var loopCarregamento = setInterval(() => {
     carregouRespostasNaoEntendeu.valor === true &&
     carregouRespostasBlacklist.valor === true &&
     carregouRespostasBlacklist.valor === true &&
+    carregouRespostasOla.valor === true &&
+    carregouperguntasRespostasCerebro2.valor === true &&
     carregouRespostasObrigado.valor === true) {
 
     console.log('Todos JSONS carregados com sucesso');
@@ -29,6 +31,8 @@ var loopCarregamento = setInterval(() => {
 
 
 
+var jaFalouOI = false; 
+
 function Perguntar(txtPergunta) {
   if (txtPergunta !== null && txtPergunta !== undefined) 
   {
@@ -39,8 +43,7 @@ function Perguntar(txtPergunta) {
           {
               
               if (contemPalavraArray(txtPergunta, arrayTchaus)) 
-              {
-                  console.log('disse tchau');
+              { 
                   MsgUsuario(txtPergunta);
                   MsgBot(Tchau());
                   document.getElementById('pergunta').value = '';
@@ -62,6 +65,19 @@ function Perguntar(txtPergunta) {
                   MsgUsuario(txtPergunta);
                   MsgBot(Desculpas());
                   document.getElementById('pergunta').value = '';
+              }
+              else if (contemPalavraArray(txtPergunta, arrayData)) 
+              {
+                  MsgUsuario(txtPergunta);
+                  MsgBot('Agora é exatamente '+HoraHoje()+', do dia é '+DataHoje());
+                  document.getElementById('pergunta').value = '';
+              }
+              else if (jaFalouOI === false && contemPalavraArray(txtPergunta, arrayOla)) 
+              {
+                MsgUsuario(txtPergunta);
+                MsgBot(Ola());
+                document.getElementById('pergunta').value = '';
+                jaFalouOI = true;//bloqueia dizer OI mais de 1x
               }
               else 
               {

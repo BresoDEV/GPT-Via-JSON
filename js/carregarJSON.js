@@ -68,6 +68,31 @@ function carregarJsons() {
         .catch(error => {
             console.error('Erro ao carregar o arquivo JSON ' + arquivo, error);
         });
+        
+        //--------------------------------
+    arquivo = 'json/oi.json';
+    fetch(arquivo)
+        .then(response => response.json())
+        .then(data => {
+            RespostasOla = data;
+            carregouRespostasOla.valor = true;
+        })
+        .catch(error => {
+            console.error('Erro ao carregar o arquivo JSON ' + arquivo, error);
+        });
+    //------------------
+   
+    arquivo = 'json/cerebro2.json';
+    fetch(arquivo)
+        .then(response => response.json())
+        .then(data => {
+            perguntasRespostasCerebro2 = data;
+            carregouperguntasRespostasCerebro2.valor = true;
+            console.log(perguntasRespostasCerebro2);
+        })
+        .catch(error => {
+            console.error('Erro ao carregar o arquivo JSON ' + arquivo, error);
+        });
     //------------------
 
 
