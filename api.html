@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página com API</title>
+</head>
+<body>
+  
+  <script src="js/brain.js"></script>
+  <script src="js/calculosSimilaridade.js"></script> 
+  <script>
+// Nome do arquivo: meuarquivo.js
+document.addEventListener('DOMContentLoaded', () => {
+ setTimeout(()=>{
+ 
+  const urlParams = new URLSearchParams(window.location.search);
+  const meuParametro =  urlParams.get('pergunta') ;
+  
+  
+
+  const corpoPagina = document.body;
+  
+  
+
+  if (meuParametro) {
+    
+	
+	
+    corpoPagina.innerHTML = `<pre>${verificarStringEObterResposta(urlParams.get('pergunta'))}</pre>`;
+  } else {
+    corpoPagina.innerHTML = `<pre>${NaoEntendeu()}</pre>`;
+  }
+  },3000);
+});
+</script>
+</body>
+</html>

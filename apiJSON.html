@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página com API</title>
+</head>
+<body>
+  
+  <script src="js/brain.js"></script>
+  <script src="js/calculosSimilaridade.js"></script> 
+  <script>
+// Nome do arquivo: meuarquivo.js
+document.addEventListener('DOMContentLoaded', () => {
+ setTimeout(()=>{
+ 
+  const urlParams = new URLSearchParams(window.location.search);
+  const meuParametro =  urlParams.get('pergunta') ;
+  
+  
+
+  const corpoPagina = document.body;
+  
+  
+   const respostaJsonErro = {
+      pergunta: '',
+      resposta: NaoEntendeu(),
+      data: new Date() 
+    };  
+	
+    // Converter o objeto JSON para string
+    const erro = JSON.stringify(respostaJsonErro, null, 2);
+  
+  
+
+  if (meuParametro) {
+    // Criar um objeto JSON com base no parâmetro
+    const respostaJson = {
+      pergunta: meuParametro,
+      resposta: verificarStringEObterResposta(urlParams.get('pergunta')),
+      data: new Date() 
+    };  
+	
+    // Converter o objeto JSON para string
+    const respostaJsonString = JSON.stringify(respostaJson, null, 2);
+    
+
+    // Exibir a string JSON no console e no corpo da página
+    console.log(`Resposta JSON: ${respostaJsonString}`);
+
+    // Exibir a string JSON no corpo da página
+    
+	
+    corpoPagina.innerHTML = `<pre>${respostaJsonString}</pre>`;
+  } else {
+    corpoPagina.innerHTML = `<pre>${erro}</pre>`;
+  }
+  },3000);
+});
+</script>
+</body>
+</html>
