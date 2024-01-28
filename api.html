@@ -11,10 +11,10 @@
   <script src="js/calculosSimilaridade.js"></script> 
   <script>
 // Nome do arquivo: meuarquivo.js
-document.addEventListener('DOMContentLoaded', () => {
- setTimeout(()=>{
- 
-  const urlParams = new URLSearchParams(window.location.search);
+var aaaaa = '';
+var contador = 0;
+
+ const urlParams = new URLSearchParams(window.location.search);
   const meuParametro =  urlParams.get('pergunta') ;
   
   
@@ -24,13 +24,25 @@ document.addEventListener('DOMContentLoaded', () => {
   
 
   if (meuParametro) {
+  
+	while(contador !== 300)
+	{
+	contador++;
+	}
     
+	aaaaa = verificarStringEObterResposta(urlParams.get('pergunta'));
 	
 	
-    corpoPagina.innerHTML = `<pre>${verificarStringEObterResposta(urlParams.get('pergunta'))}</pre>`;
+	
+    corpoPagina.innerHTML = `<pre>${aaaaa}</pre>`;
   } else {
     corpoPagina.innerHTML = `<pre>${NaoEntendeu()}</pre>`;
   }
+  
+document.addEventListener('DOMContentLoaded', () => {
+ setTimeout(()=>{
+ 
+ 
   },3000);
 });
 </script>
