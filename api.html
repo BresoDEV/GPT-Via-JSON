@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Breso API</title>
+  <title>Breso API V2</title>
 </head>
 <body>
   
@@ -35,13 +35,24 @@ var contador = 0;
 	
 	
 	
-    corpoPagina.innerHTML = `<pre>${aaaaa}</pre>`;
-  } else {
-    corpoPagina.innerHTML = `<pre>${NaoEntendeu()}</pre>`;
+    
+  } 
+  else 
+  {
+  
+    aaaaa = `<pre>${NaoEntendeu()}</pre>`;
   }
   
 document.addEventListener('DOMContentLoaded', () => {
-  
+  if(aaaaa === '')
+  {
+  aaaaa = verificarStringEObterResposta(urlParams.get('pergunta'));
+  corpoPagina.innerHTML = `<pre>${aaaaa}</pre>`;
+  }
+  else
+  {
+  corpoPagina.innerHTML = `<pre>${aaaaa}</pre>`;
+  }
 });
 </script>
 </body>
