@@ -1,28 +1,28 @@
 function BemVindo() {
     let i = Math.floor(Math.random() * RespostasBemVindo.length);
     //console.log(RespostasBemVindo[i]);
-    return RespostasBemVindo[i];
+    return RespostasBemVindo[i]+''+escolherEmotionAleatorio(emotionsAleatorios);
 }
 
 function Tchau() {
     let i = Math.floor(Math.random() * RespostasTchau.length);
     //console.log(RespostasBemVindo[i]);
-    return RespostasTchau[i];
+    return RespostasTchau[i]+''+escolherEmotionAleatorio(emotionsFeliz);
 }
 function Obrigado() {
     let i = Math.floor(Math.random() * RespostasObrigado.length);
     //console.log(RespostasBemVindo[i]);
-    return RespostasObrigado[i];
+    return RespostasObrigado[i]+''+escolherEmotionAleatorio(emotionsFeliz);
 }
 function NaoEntendeu() {
     let i = Math.floor(Math.random() * RespostasNaoEntendeu.length);
     //console.log(RespostasBemVindo[i]);
-    return RespostasNaoEntendeu[i];
+    return RespostasNaoEntendeu[i] + ' ' + escolherEmotionAleatorio(emotionsTriste);
 }
 function Palavrao() {
     let i = Math.floor(Math.random() * RespostasBlacklist.length);
     //console.log(RespostasBemVindo[i]);
-    return RespostasBlacklist[i];
+    return RespostasBlacklist[i] + ' ' + escolherEmotionAleatorio(emotionsPalavrao);
 }
 
 function Desculpas() {
@@ -34,7 +34,7 @@ function Desculpas() {
 function Ola() {
     let i = Math.floor(Math.random() * RespostasOla.length);
     //console.log(RespostasBemVindo[i]);
-    return RespostasOla[i];
+    return RespostasOla[i] + '' + escolherEmotionAleatorio(emotionsFeliz);
 }
 
 function DataHoje() {

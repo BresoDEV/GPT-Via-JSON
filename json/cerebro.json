@@ -255,12 +255,12 @@
   {
     "pergunta": "teste",
     "pergunta2": "foto",
-    "resposta": "<img src='https://www.petz.com.br/blog/wp-content/uploads/2023/08/Interna-2-porque-camaleao-muda-de-cor-ok.jpg' alt=' '>"
+    "resposta": "<img src='./breso.png' alt=' '>"
   },
   {
     "pergunta": "teste",
     "pergunta2": "imagem",
-    "resposta": "<img src='https://www.petz.com.br/blog/wp-content/uploads/2023/08/Interna-2-porque-camaleao-muda-de-cor-ok.jpg' alt=' '>"
+    "resposta": "<img src='./breso.png' alt=' '>"
   },
   {
     "pergunta": "teste",

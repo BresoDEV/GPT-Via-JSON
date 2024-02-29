@@ -37,7 +37,7 @@ function encontrarPerguntaSemelhante(perguntaUsuario) {
 
 function verificarStringEObterResposta(str) {
     var ra = '';
-    console.log('ra: -'+ra+'-');
+    console.clear();
     //perguntasRespostas
     if(ra ==='')
     {
@@ -54,9 +54,9 @@ function verificarStringEObterResposta(str) {
         }
     }
     
-    debugger;
     console.log('pesquisa no cerebro2.json');
-    console.log('ra: -'+ra+'-');
+    
+    
     if (ra === '') {
         //ainda nao achou uma resposta
         //pesquisa no cerebro2.json
@@ -66,14 +66,17 @@ function verificarStringEObterResposta(str) {
             if (pc.every(palavra => str.includes(array[palavra]))) {
                 const r = Object.keys(array).filter(key => key.includes('resposta'));
                 ra = array[r[Math.floor(Math.random() * r.length)]];
+                
                 console.log(ra);
+                
                 return ra;
             }
         }
     }
 
-    console.log('ra: -'+ra+'-');
+    
     //não achou nada
+    console.log('Nao Entendeu');
     return NaoEntendeu();
 
 }

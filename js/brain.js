@@ -48,6 +48,13 @@ function Perguntar(txtPergunta) {
                   MsgBot(Tchau());
                   document.getElementById('pergunta').value = '';
               }
+              else if (jaFalouOI === false && contemPalavraArray(txtPergunta, arrayOla)) 
+              {
+                MsgUsuario(txtPergunta);
+                MsgBot(Ola());
+                document.getElementById('pergunta').value = '';
+                jaFalouOI = true;//bloqueia dizer OI mais de 1x
+              }
               else if (contemPalavraArray(txtPergunta, arrayObrigados)) 
               {
                   MsgUsuario(txtPergunta);
@@ -71,13 +78,6 @@ function Perguntar(txtPergunta) {
                   MsgUsuario(txtPergunta);
                   MsgBot('Agora é exatamente '+HoraHoje()+', do dia é '+DataHoje());
                   document.getElementById('pergunta').value = '';
-              }
-              else if (jaFalouOI === false && contemPalavraArray(txtPergunta, arrayOla)) 
-              {
-                MsgUsuario(txtPergunta);
-                MsgBot(Ola());
-                document.getElementById('pergunta').value = '';
-                jaFalouOI = true;//bloqueia dizer OI mais de 1x
               }
               else 
               {
